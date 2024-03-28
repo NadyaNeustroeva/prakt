@@ -1,6 +1,7 @@
 import pytest
 from app import app as app
 
+
 @pytest.fixture
 def webapp():
     app.config['TESTING'] = True
